@@ -1,7 +1,8 @@
 class PagesController < ApplicationController
   def home
+    @invest = Investment.all
   end
 
-  def invest
+  def contact
   end
 end
