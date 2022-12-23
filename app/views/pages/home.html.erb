@@ -1,10 +1,23 @@
-<h1>Alex Rinaldi<h1>
-
-<%= "A invests across different industries"%>
-<ol>
-<%= @invest.each do |investment| %>
-<li><p><%= investment.name %><p><li>
-<% end %>
-</ol>
-
-<%= link_to "contact", contact_path %>
+<div class= "d-flex main_page">
+    <div class="col-5">
+        <div class="left_text">
+            <h1>Alex Rinaldi</h1>
+            <ul>
+                <li><p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p></li>
+                    <br>
+                <li><p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p></li>
+                    <br>
+                <li><p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-5">
+        <div class="cards">
+            <p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p>
+            <p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p>
+            <p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p>
+            <p>Stocks, bonds, and other investments are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors are ultra-useful financial tools that allow investors</p>
+        </div>
+    </div>
+</div>
+<%= link_to "contact", contact_path, class: "reach_out" %>
